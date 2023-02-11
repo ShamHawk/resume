@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #4682B4;
+    background: #FFFAF0;
+    padding: 10px;
+}
+
+.container {
+    margin: auto;
+    max-width: 950px;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: normal;
+}
+
+body h1 {
+    color: #A52A2A;
+    font-size: 40px;
+    border-left: 5px solid blueviolet;
+    border-right: 5px solid blueviolet;
+    max-width: 950px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+body h2 {
+    text-decoration: underline;
+    color: #A52A2A;
+}
+
+.card-1 {
+    border-bottom: 1px solid green;
+    border-top: 2px solid #A52A2A;
+    padding-left: 10px;
+    border-right: 6px solid green;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    font-size: larger;
+    
+}
+
+.card-2 {
+    border-bottom: 1px solid green;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-right: 6px solid green;
+    border-radius: 10px;
+    background-color: bisque;
+    border-top: 1px solid green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.card-3 {
+    border-bottom: 1px solid green;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-right: 6px solid green;
+    border-radius: 10px;
+    background-color: #E6E6FA;
+    border-top: 1px solid green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+.card-4 {
+    border-bottom: 1px solid green;
+    padding-left: 10px;
+    border-right: 6px solid green;
+    border-radius: 10px;
+    background-color: bisque;
+    padding-top: 5px;
+    border-top: 1px solid green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.card-5 {
+    border-bottom: 2px solid #A52A2A;
+    padding-left: 10px;
+    border-right: 6px solid green;
+    border-radius: 10px;
+    background-color: #E6E6FA;
+    padding-top: 5px;
+    border-top: 1px solid green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.card-6 {
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+
+
