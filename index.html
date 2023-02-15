@@ -20,7 +20,7 @@
                 <br>
                 Junior Frontend Разработчик
             </h1>
-            <div class="card-1">
+            <div class="about_me">
                 <p>В настоящий момент прохожу различные базовые курсы по веб разработке <strong>(HTML, CSS, JS)</strong>, владею <strong> Python и Go на начальном уровне. </strong>
                     <br><br>
                     Имею опыт работы в закупках (2 года). Также владел собственным рестораном в течение 2.5 лет и имею навыки управления (штат 15 человек).
@@ -37,19 +37,32 @@
                     <br><br><em>Люблю путешествовать, хочу за свою жизнь
                         посетить столько стран, сколько смогу :)</em>
                 </p>
+                <p>
+                    <div class="hobby">
+                        <h3>Мои хобби</h3>
+                        <table class="table">
+                            <thead>
+                        <th>Литература</th>
+                        <th>Гитара</th>
+                        <th>Фитнес</th>
+                        <th>Путешествия</th>
+                        <th>Видеоигры</th>
+                    </thead>
+                    </table>
+                    </div>
+                </p>
             </div>
-            <div class="card-2">
-                <h4><strong>Список социальных сетей:</strong></h4>
+            <div class="social_networks">
+                <h2><strong>Список социальных сетей</strong></h2>
                 <a href="https://vk.com/alex__kein" target="_blank" class="btn"> Вконтакте </a>
                 <a href="https://togliatti.hh.ru/resume/7c28bfdbff0bab7d6b0039ed1f3270524f7352" target="_blank" class="btn">
                     HeadHunter </a>
                 <a href="https://t.me/uss_sh" target="_blank" class="btn">Телеграм </a>
-
             </div>
         </div>
-        <div class="card-3">
+        <div class="exp">
             <h2>Опыт работы</h2>
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
                         <th>Название</th>
@@ -76,20 +89,10 @@
                 </tbody>
             </table>
         </div>
-        <div class="card-4">
-            <h2>Мои хобби</h2>
-            <ol>
-                <li>Литература</li>
-                <li>Гитара</li>
-                <li>Фитнес</li>
-                <li>Путешествия</li>
-                <li>Видеоигры</li>
-            </ol>
 
-        </div>
-        <div class="card-5">
+        <div class="courses">
             <h2>Пройденные курсы</h2>
-            <ol>
+            <ol class="list">
                 <li><a href="https://stepik.org/course/67/syllabus" target="_blank" class="btn">
                         Stepik - Программирование на Python</a></li> <br>
                 <li><a href="https://stepik.org/course/54403/syllabus" target="_blank" class="btn">
@@ -102,22 +105,29 @@
                         Result School - HTML/CSS - первый шаг в IT</a></li> <br>
             </ol>
         </div>
-        <div class="card-6">
-            <h2>Связаться со мной</h2>
-            <form>
-                <div>
+
+        
+       
+        <div class="contact_me">
+            
+            <form class="form">
+                <h2>Связаться со мной</h2>
+
+                <div class="form-row">
+                <div class="form-group">
                     <label for="name">Ваше имя:</label>
                     <input type="name" id="name" placeholder="Введите имя">
                 </div>
 
-                <div>
+                <div class="form-group">
                     <label for="email">Ваш email:</label>
                     <input type="email" id="email" placeholder="Введите email">
                 </div>
 
-                <div>
-                    <label for="message">Ваше сообщение:</label>
-                    <br>
+            </div>
+            
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</></label>
                     <textarea id="message" placeholder="Введите сообщение..." cols="25" rows="5"></textarea>
                 </div>
                 <input type="submit" value="Отправить" class="btn">
