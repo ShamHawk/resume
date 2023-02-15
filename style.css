@@ -23,10 +23,10 @@ body {
         font-size: smaller;
     }
     .social_networks .btn {
-        font-size: 12px;
+        font-size: 10px;
     }
     .courses .list .btn {
-        font-size: 12px;
+        font-size: 8px;
     }
 }
 
@@ -52,6 +52,12 @@ p {
 
 .hobby {
     text-align: center;
+}
+
+.hobby p {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
 }
 
 body h1 {
@@ -133,7 +139,6 @@ body h2 {
     margin-bottom: 10px;
     font-size: larger;
     text-align: center;
-    padding-right: 25px;
 }
 
 .courses .btn{
@@ -242,6 +247,17 @@ body h2 {
 .form-row {
     margin-bottom: 10px;
     display: flex;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
 
 .form-row .form-group{
